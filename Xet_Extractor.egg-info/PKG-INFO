@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Xet-Extractor
+Version: 0.1
+Summary: Capturador de strings que permite extraer textos que esten en medio de dos delimitadores
+Home-page: https://github.com/MrXetwy21/Xet-Extractor
+Author: MrXetwy21
+Author-email: Xetwy21@outlook.com
+License: MIT
+Platform: UNKNOWN
+
+# Xet-Extractor
+
+Xet-Extractor es una librerÃ­a de Python diseÃ±ada para extraer texto que se encuentra entre dos delimitadores especÃ­ficos dentro de una cadena de texto. Es Ãºtil para tareas de procesamiento de texto y anÃ¡lisis de datos.
+
+## InstalaciÃ³n
+
+Puedes instalar la librerÃ­a directamente desde PyPI utilizando pip:
+
+```bash
+pip install Xet-Extractor
+```
+
+TambiÃ©n puedes instalarla desde el repositorio clonÃ¡ndolo y utilizando `setup.py`:
+
+```bash
+python setup.py install
+```
+
+## Uso
+
+Importa la funciÃ³n `Ext` desde el mÃ³dulo `Xetractor` y Ãºsala para extraer texto entre delimitadores:
+
+```python
+from Xetractor import Ext
+
+# Ejemplo de uso
+data = "Hola [mundo]!"
+resultado = Ext(data, "[", "]")
+print(resultado)  # Salida: mundo
+```
+
+### ParÃ¡metros de la funciÃ³n `Ext`
+- `data` (str): La cadena de texto de entrada.
+- `first` (str): El delimitador inicial.
+- `last` (str): El delimitador final.
+
+### Retorno
+- Devuelve el texto que se encuentra entre los delimitadores especificados.
+- Si no se encuentran los delimitadores, devuelve `None`.
+
+## Autor
+
+Creado por [MrXetwy21](https://github.com/MrXetwy21).
+
+## Licencia
+
+Este proyecto estÃ¡ licenciado bajo los tÃ©rminos de la licencia MIT.
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+Xet_Extractor.egg-info/PKG-INFO
+Xet_Extractor.egg-info/SOURCES.txt
+Xet_Extractor.egg-info/dependency_links.txt
+Xet_Extractor.egg-info/top_level.txt
+Xetractor/Extractor.py
+Xetractor/__init__.py
