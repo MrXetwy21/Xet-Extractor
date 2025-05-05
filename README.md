@@ -1,4 +1,4 @@
-# Xet-Extractor
+# Xet-Extractor 0.1
 
 Xet-Extractor es una librería de Python diseñada para extraer texto que se encuentra entre dos delimitadores específicos dentro de una cadena de texto. Es útil para tareas de procesamiento de texto y análisis de datos.
 
