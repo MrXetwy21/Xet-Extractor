@@ -13,6 +13,7 @@ if __name__ == '__main__':
         author_email='Xetwy21@outlook.com',
         packages=find_packages(),
         long_description=open('README.md').read(),
+        long_description_content_type='text/markdown',
         install_requires=[
         ],
     )
